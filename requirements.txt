@@ -1,9 +1,9 @@
-torch==2.7.1
+torch==2.15.0
 torchvision==0.16.2
 torchaudio==2.1.2
 xformers==0.0.23.post1
-transformers==4.50.0
-sentence_transformers==2.2.2
+transformers==5.9.0
+sentence_transformers==6.2.0
 langchain==0.2.5
 langchain-experimental==0.0.61
 pydantic==1.10.13
@@ -11,9 +11,9 @@ fschat==0.2.36
 openai==1.9.0
 fastapi==0.109.0
 sse_starlette==1.8.2
-nltk==3.9.1
+nltk==3.10.4
 uvicorn>=0.27.0.post1
-starlette==0.40.0
+starlette==1.10.0
 unstructured[all-docs] # ==0.11.8
 python-magic-bin; sys_platform == 'win32'
 SQLAlchemy==2.0.25
@@ -68,4 +68,4 @@ streamlit-aggrid==0.3.4.post3
 httpx==0.26.0
 httpx_sse==0.4.0
 watchdog==3.0.0
-pyjwt==2.8.0
+pyjwt==2.15.0
